@@ -1,0 +1,5 @@
+/* Importa Tailwind v4 */
+@import "tailwindcss";
+
+/* (Opcional) Si alguna plantilla no se detecta automáticamente, expón rutas con @source */
+@source "../**/*.php";

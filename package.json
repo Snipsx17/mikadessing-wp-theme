@@ -1,0 +1,18 @@
+{
+  "name": "mikadesign-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/vite": "^4.1.12",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.12"
+  },
+  "scripts": {
+    "dev": "yarn tailwindcss -i ./src/styles/styles.css -o ./assets/styles.css --watch",
+    "build": "yarn tailwindcss -i ./src/styles/styles.css -o ./assets/styles.css"
+  }
+}
