@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.12",
     "@tailwindcss/vite": "^4.1.12",
-    "vite": "^7.1.2"
+    "@types/react": "^19.1.10",
+    "@vitejs/plugin-react": "^5.0.1",
+    "vite": "^7.1.3"
   },
   "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.12"
   },
   "scripts": {
-    "dev": "yarn tailwindcss -i ./src/styles/styles.css -o ./assets/styles.css --watch",
-    "build": "yarn tailwindcss -i ./src/styles/styles.css -o ./assets/styles.css"
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
