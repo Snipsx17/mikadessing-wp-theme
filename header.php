@@ -8,5 +8,3 @@
 </head>
 <body <?php body_class() ?>>
     <div id="nav-bar"></div>
-
-
