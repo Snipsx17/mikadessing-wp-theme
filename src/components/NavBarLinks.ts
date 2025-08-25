@@ -1,6 +1,11 @@
+type NavElement = {
+  id: number;
+  name: string;
+  path: string;
+  subMenu?: NavElement[];
+}
 
-
-export const NAV_LINKS = [
+export const NAV_LINKS: NavElement[] = [
   {
     id: 1,
     name: "Inicio",
